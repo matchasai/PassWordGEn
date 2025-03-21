@@ -1,0 +1,143 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #002339;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    background: #014F52;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Title Styling */
+.container h1 {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.container h1 span {
+    color: #01c67b;
+    border-bottom: 4px solid #01c67b;
+    padding-bottom: 5px;
+}
+
+/* Password Display Section */
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.display input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    background: transparent;
+}
+
+/* Copy Icon */
+.display img {
+    cursor: pointer;
+    width: 25px;
+    transition: 0.3s;
+}
+
+.display img:hover {
+    transform: scale(1.1);
+}
+
+/* Generate Button */
+.container button {
+    border: none;
+    outline: none;
+    background: #01c67b;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container button img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.container button:hover {
+    background: #018f5c;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .container h1 {
+        font-size: 24px;
+    }
+
+    .display {
+        flex-direction: column;
+        padding: 12px;
+    }
+
+    .display input {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .container button {
+        font-size: 18px;
+    }
+}
+/* Refresh Button Style */
+.refresh {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.refresh img {
+    width: 40px;
+    height: 40px;
+}
+
+.refresh img:hover {
+    transform: rotate(180deg);
+}
