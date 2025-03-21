@@ -38,7 +38,8 @@ A simple and efficient **Password Generator** built using **HTML, CSS, and JavaS
 3. **Open `index.html` in your browser** and start generating passwords!
 
 ## 🚀 Live Demo
-🔗 [Live Demo](https://vercel.com/sais-projects-5b771bd5/password-gen)
+🔗 [Live Demo](https://password-gen-woad.vercel.app/)
+
 
 ## 🤝 Contributing
 Feel free to contribute to this project by reporting bugs, suggesting features, or improving the code!
